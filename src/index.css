@@ -82,7 +82,7 @@ h1, h2 {
 .speak-btn:hover {
   background: #005fa3;
 }
-/* Түнгі режим (body.dark) */
+
 body.dark {
   background-color: #1e1e1e;
   color: #f0f0f0;
@@ -148,7 +148,7 @@ nav, .card, .phrase-item {
 .start-button:hover {
   background-color: #005fa3;
 }
-/* ...existing code... */
+
 
 .register-container {
   max-width: 400px;
@@ -236,4 +236,10 @@ nav, .card, .phrase-item {
 .register-container a:hover {
   background: linear-gradient(90deg, #005fa3 60%, #219150 100%);
   transform: scale(1.05);
+}
+.vidio-container{
+  background: linear-gradient(135deg, #e0f7fa 0%, #fefefe 100%);
+  padding:40px 32px;
+  border: radius 24px;
+  box-shadow:0 8px 32px rgba(0, 119, 204, 0.15),0 2px 8px rgba(44, 62, 80, 0.08);
 }
